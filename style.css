@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #7bdaf3;
+}
+
+.note_card {
+  background-color: #fff;
+  margin: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.note_card .tools {
+  background-color: #9ec862;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.note_card .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note_card .main {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.note_card textarea {
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+  outline: none;
+}
+
+.note_card .hidden {
+  display: none;
+}
