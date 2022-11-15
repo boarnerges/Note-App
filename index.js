@@ -44,7 +44,8 @@ function addNewNote() {
   deleteBtn.addEventListener("click", () => {
     note.remove();
   });
-  //Event listener t
+
+  //Event listener to
   textArea.addEventListener("input", (e) => {
     const { value } = e.target;
 
